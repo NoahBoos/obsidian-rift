@@ -24,5 +24,10 @@
 
 /* Useful for bypassing "Show inline title" setting sync when using a custom sync service. */
 .inline-title {
-    display: none;
+    display: none !important;
+}
+
+/* Useful for bypassing "Properties in document" setting sync when using a custom sync service. */
+.metadata-container {
+    display: none !important;
 }
