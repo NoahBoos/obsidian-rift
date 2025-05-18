@@ -62,3 +62,11 @@
 .metadata-container {
     display: none !important;
 }
+
+/* Add vertical alignement to Calendar plugin's reset button. */
+#calendar-container .right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
