@@ -77,3 +77,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/* Applied to make a note span the full width available. */
+.wide-page, .page-large {
+    --file-line-width: 100%;
+}
