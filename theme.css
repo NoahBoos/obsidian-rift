@@ -21,3 +21,8 @@
         max-width: 375px;
     }
 }
+
+/* Useful for bypassing "Show inline title" setting sync when using a custom sync service. */
+.inline-title {
+    display: none;
+}
