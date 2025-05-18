@@ -5,3 +5,9 @@
 .theme-light {
 
 }
+
+.workspace {
+    > .workspace-ribbon {
+        display: none;
+    }
+}
