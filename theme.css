@@ -51,6 +51,12 @@
         min-width: 375px;
         max-width: 375px;
     }
+
+    > .mod-left-split, .mod-right-split {
+        .view-content {
+            padding: 16px;
+        }
+    }
 }
 
 /* Useful for bypassing "Show inline title" setting sync when using a custom sync service. */
