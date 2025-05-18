@@ -65,7 +65,8 @@
 }
 
 /* Useful for bypassing "Properties in document" setting sync when using a custom sync service. */
-.metadata-container {
+.workspace-leaf-content[data-mode="preview"] .mod-header > .metadata-container,
+.workspace-leaf-content[data-mode="source"] .cm-sizer > .metadata-container {
     display: none !important;
 }
 
