@@ -10,4 +10,14 @@
     > .workspace-ribbon {
         display: none;
     }
+
+    > .mod-left-split {
+        min-width: 375px;
+        max-width: 375px;
+    }
+
+    > .mod-right-split {
+        min-width: 375px;
+        max-width: 375px;
+    }
 }
