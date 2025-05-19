@@ -65,7 +65,7 @@
 
 /* Add a width constraint to settings modal. */
 .mod-settings {
-    min-width: 80%;
+    min-width: var(--settings-related-modal-width);
 }
 
 /* Useful for bypassing "Show inline title" setting sync when using a custom sync service. */
