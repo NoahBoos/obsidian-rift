@@ -1,3 +1,7 @@
+:root {
+    --settings-related-modal-width: 80%;
+}
+
 .theme-dark {
     --background-primary: #2B2F3A;
     --background-primary-alt: #2B2F3A;
