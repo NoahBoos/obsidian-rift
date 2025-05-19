@@ -68,6 +68,11 @@
     min-width: var(--settings-related-modal-width);
 }
 
+/* Add a width constraint to community modals (plugins & themes). */
+.mod-community-modal {
+    min-width: var(--settings-related-modal-width);
+}
+
 /* Useful for bypassing "Show inline title" setting sync when using a custom sync service. */
 .inline-title {
     display: none !important;
