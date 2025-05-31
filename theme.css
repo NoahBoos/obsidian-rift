@@ -13,6 +13,8 @@
     --accent-h: 160;
     --accent-s: 20%;
     --accent-l: 45%;
+    --bold-color: var(--color-yellow);
+    --italic-color: var(--color-orange);
     --color-red: #B75C5C;
     --color-red-rgb: 183, 92, 92;
     --color-orange: #C48A6A;
