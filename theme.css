@@ -1,3 +1,122 @@
+/* @settings
+name: Theme - Rift
+id: obsidian-theme-rift
+settings:
+    -   id: obsidian-theme-rift-hsl
+        title: Accent colour
+        type: heading
+        level: 2
+    -   id: accent-h
+        title: "Hue"
+        type: variable-number-slider
+        default: 160
+        min: 0
+        max: 255
+        step: 1
+    -   id: accent-s
+        title: "Saturation"
+        type: variable-text
+        default: 20%
+    -   id: accent-l
+        title: "Lightness"
+        type: variable-text
+        default: 45%
+
+    -   id: obsidian-theme-rift-typography
+        title: Typography
+        type: heading
+        level: 2
+    -   id: text-accent
+        title: 'Text accent'
+        description: 'Define the colour used for accented text.'
+        type: variable-select
+        default: var(--color-green)
+        options:
+            - label: Red
+              value: var(--color-red)
+            - label: Orange
+              value: var(--color-orange)
+            - label: Yellow
+              value: var(--color-yellow)
+            - label: Green
+              value: var(--color-green)
+            - label: Cyan
+              value: var(--color-cyan)
+            - label: Blue
+              value: var(--color-blue)
+            - label: Purple
+              value: var(--color-purple)
+            - label: Pink
+              value: var(--color-pink)
+    -   id: text-accent-hover
+        title: 'Text accent - Hover'
+        description: 'Define the colour used for accented text when they are hovered.'
+        type: variable-select
+        default: var(--color-green-hover)
+        options:
+            - label: Red
+              value: var(--color-red-hover)
+            - label: Orange
+              value: var(--color-orange-hover)
+            - label: Yellow
+              value: var(--color-yellow-hover)
+            - label: Green
+              value: var(--color-green-hover)
+            - label: Cyan
+              value: var(--color-cyan-hover)
+            - label: Blue
+              value: var(--color-blue-hover)
+            - label: Purple
+              value: var(--color-purple-hover)
+            - label: Pink
+              value: var(--color-pink-hover)
+    -   id: bold-color
+        title: 'Bold colour'
+        description: 'Define the colour used for bold text.'
+        type: variable-select
+        default: var(--color-yellow)
+        options:
+            - label: Red
+              value: var(--color-red)
+            - label: Orange
+              value: var(--color-orange)
+            - label: Yellow
+              value: var(--color-yellow)
+            - label: Green
+              value: var(--color-green)
+            - label: Cyan
+              value: var(--color-cyan)
+            - label: Blue
+              value: var(--color-blue)
+            - label: Purple
+              value: var(--color-purple)
+            - label: Pink
+              value: var(--color-pink)
+    -   id: italic-color
+        title: 'Italic colour'
+        description: 'Define the colour used for italic text.'
+        type: variable-select
+        default: var(--color-orange)
+        options:
+            - label: Red
+              value: var(--color-red)
+            - label: Orange
+              value: var(--color-orange)
+            - label: Yellow
+              value: var(--color-yellow)
+            - label: Green
+              value: var(--color-green)
+            - label: Cyan
+              value: var(--color-cyan)
+            - label: Blue
+              value: var(--color-blue)
+            - label: Purple
+              value: var(--color-purple)
+            - label: Pink
+              value: var(--color-pink)
+
+*/
+
 :root {
     --settings-related-modal-width: 80%;
 }
