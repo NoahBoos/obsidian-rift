@@ -28,21 +28,37 @@
     /* Colours */
     /***********/
     --color-red: #B75C5C;
+    --color-red-hover: #C97A7A;
     --color-red-rgb: 183, 92, 92;
+    --color-red-hover-rgb: 201, 122, 122;
     --color-orange: #C48A6A;
+    --color-orange-hover: #D39D80;
     --color-orange-rgb: 196, 138, 106;
+    --color-orange-hover-rgb: 211, 157, 128;
     --color-yellow: #D1B97F;
+    --color-yellow-hover: #DDCCA0;
     --color-yellow-rgb: 209, 185, 127;
+    --color-yellow-hover-rgb: 221, 204, 160;
     --color-green: #5c8a7a;
+    --color-green-hover: #74A194;
     --color-green-rgb: 92, 138, 122;
+    --color-green-hover-rgb: 116, 161, 148;
     --color-cyan: #5C9E9E;
+    --color-cyan-hover: #73B3B3;
     --color-cyan-rgb: 92, 158, 158;
+    --color-cyan-hover-rgb: 115, 179, 179;
     --color-blue: #5A78A0;
+    --color-blue-hover: #7590B5;
     --color-blue-rgb: 90, 120, 160;
+    --color-blue-hover-rgb: 117, 144, 181;
     --color-purple: #7D6C9C;
+    --color-purple-hover: #9585B2;
     --color-purple-rgb: 125, 108, 156;
+    --color-purple-hover-rgb: 149, 133, 178;
     --color-pink: #A37D9C;
+    --color-pink-hover: #B892AE;
     --color-pink-rgb: 163, 125, 156;
+    --color-pink-hover-rgb: 184, 146, 174;
     /**********/
     /* Titles */
     /**********/
