@@ -3,18 +3,30 @@
 }
 
 .theme-dark {
+    /**************/
+    /* Background */
+    /**************/
     --background-primary: #2B2F3A;
     --background-primary-alt: #2B2F3A;
     --background-secondary: #3A3F4C;
     --background-secondary-alt: #3A3F4C;
+    /********/
+    /* Text */
+    /********/
     --text-normal: #E5E7EB;
     --text-muted: #9CA3AF;
     --text-faint: #6B7280;
+    --bold-color: var(--color-yellow);
+    --italic-color: var(--color-orange);
+    /**********/
+    /* Accent */
+    /**********/
     --accent-h: 160;
     --accent-s: 20%;
     --accent-l: 45%;
-    --bold-color: var(--color-yellow);
-    --italic-color: var(--color-orange);
+    /***********/
+    /* Colours */
+    /***********/
     --color-red: #B75C5C;
     --color-red-rgb: 183, 92, 92;
     --color-orange: #C48A6A;
@@ -31,6 +43,9 @@
     --color-purple-rgb: 125, 108, 156;
     --color-pink: #A37D9C;
     --color-pink-rgb: 163, 125, 156;
+    /**********/
+    /* Titles */
+    /**********/
     --h1-color: #A3B6B4;
     --h2-color: #5E8290;
     --h3-color: #8DA89C;
