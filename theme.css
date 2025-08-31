@@ -2,6 +2,15 @@
 name: Theme - Rift
 id: obsidian-theme-rift
 settings:
+    -   id: obsidian-theme-rift-core-config
+        title: Core settings
+        type: heading
+        level: 2
+    -   id: workspace-ribbon-hide
+        title: Hidden ribbon
+        description: If set to true, the ribbon at the left will be hidden, else if set to false, the ribbon at the left will be displayed.
+        type: class-toggle
+
     -   id: obsidian-theme-rift-hsl
         title: Accent colour
         type: heading
@@ -114,7 +123,6 @@ settings:
               value: var(--color-purple)
             - label: Pink
               value: var(--color-pink)
-
 */
 
 :root {
@@ -272,10 +280,11 @@ settings:
     --h6-color: #5F8F78;   /* vert forêt adouci */
 }
 
+.workspace-ribbon-hide .workspace-ribbon {
+    display: none;
+}
+
 .workspace {
-    > .workspace-ribbon {
-        display: none;
-    }
 
     > .mod-left-split {
         min-width: 375px;
