@@ -216,6 +216,14 @@ settings:
     --background-secondary-alt: #B7C2CB;
     --background-secondary-alt-rgb: 183, 194, 203;
 
+    /******************************/
+    /* Divider & Horizontal rules */
+    /******************************/
+    --divider-color: var(--background-primary-alt);
+    --divider-width: 1px;
+    --hr-color: var(--background-primary-alt);
+    --hr-thickness: 1px;
+
     /********/
     /* Text */
     /********/
