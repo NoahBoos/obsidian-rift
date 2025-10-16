@@ -207,10 +207,14 @@ settings:
     /**************/
     /* Background */
     /**************/
-    --background-primary: #D1D9E0;
-    --background-primary-alt: #C4CED6;
-    --background-secondary: #B7C2CB;
-    --background-secondary-alt: #AAB7C0;
+    --background-primary: #E6EBF0;
+    --background-primary-rgb: 230, 235, 240;
+    --background-primary-alt: #D9E0E6;
+    --background-primary-alt-rgb: 217, 224, 230;
+    --background-secondary: #CBD6DD;
+    --background-secondary-rgb: 203, 214, 221;
+    --background-secondary-alt: #B7C2CB;
+    --background-secondary-alt-rgb: 183, 194, 203;
 
     /********/
     /* Text */
