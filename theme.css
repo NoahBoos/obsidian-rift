@@ -237,45 +237,45 @@ settings:
     /***********/
     /* Colours */
     /***********/
-    --color-red: #D68C8C;
-    --color-red-hover: #E3A1A1;
-    --color-red-rgb: 214, 140, 140;
-    --color-red-hover-rgb: 227, 161, 161;
+    --color-red: #9A4D4D;
+    --color-red-hover: #C06A6A;
+    --color-red-rgb: 154, 77, 77;
+    --color-red-hover-rgb: 192, 106, 106;
 
-    --color-orange: #D9A77F;
-    --color-orange-hover: #E5B891;
-    --color-orange-rgb: 217, 167, 127;
-    --color-orange-hover-rgb: 229, 184, 145;
+    --color-orange: #B26B40;
+    --color-orange-hover: #D18A61;
+    --color-orange-rgb: 178, 107, 64;
+    --color-orange-hover-rgb: 209, 138, 97;
 
-    --color-yellow: #E0CA9A;
-    --color-yellow-hover: #EADFB7;
-    --color-yellow-rgb: 224, 202, 154;
-    --color-yellow-hover-rgb: 234, 223, 183;
+    --color-yellow: #A58C54;
+    --color-yellow-hover: #C0A16F;
+    --color-yellow-rgb: 165, 140, 84;
+    --color-yellow-hover-rgb: 192, 161, 111;
 
-    --color-green: #6E9B8A;
-    --color-green-hover: #88B3A2;
-    --color-green-rgb: 110, 155, 138;
-    --color-green-hover-rgb: 136, 179, 162;
+    --color-green: #436257;           /* Vert profond */
+    --color-green-hover: #5A8070;     /* Hover plus clair */
+    --color-green-rgb: 67, 98, 87;
+    --color-green-hover-rgb: 90, 128, 112;
 
-    --color-cyan: #70B0B0;
-    --color-cyan-hover: #8AC7C7;
-    --color-cyan-rgb: 112, 176, 176;
-    --color-cyan-hover-rgb: 138, 199, 199;
+    --color-cyan: #4A8A8A;            /* Cyan plus bleu que le vert */
+    --color-cyan-hover: #66B0B0;      /* Hover plus lumineux */
+    --color-cyan-rgb: 74, 138, 138;
+    --color-cyan-hover-rgb: 102, 176, 176;
 
-    --color-blue: #6A88B0;
-    --color-blue-hover: #879CCF;
-    --color-blue-rgb: 106, 136, 176;
-    --color-blue-hover-rgb: 135, 156, 207;
+    --color-blue: #3A4E8C;            /* Bleu saturé pour se distinguer du vert */
+    --color-blue-hover: #5C74B0;      /* Hover visible */
+    --color-blue-rgb: 58, 78, 140;
+    --color-blue-hover-rgb: 92, 116, 176;
 
-    --color-purple: #8A7AB0;
-    --color-purple-hover: #A394C7;
-    --color-purple-rgb: 138, 122, 176;
-    --color-purple-hover-rgb: 163, 148, 199;
+    --color-purple: #584A80;
+    --color-purple-hover: #7A66A6;
+    --color-purple-rgb: 88, 74, 128;
+    --color-purple-hover-rgb: 122, 102, 166;
 
-    --color-pink: #B193B0;
-    --color-pink-hover: #C2A4C0;
-    --color-pink-rgb: 177, 147, 176;
-    --color-pink-hover-rgb: 194, 164, 192;
+    --color-pink: #8F617F;
+    --color-pink-hover: #B07D9B;
+    --color-pink-rgb: 143, 97, 127;
+    --color-pink-hover-rgb: 176, 125, 155;
 
     /**********/
     /* Titles */
