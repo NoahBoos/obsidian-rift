@@ -159,38 +159,45 @@ settings:
     /***********/
     /* Colours */
     /***********/
-    --color-red: #B75C5C;
-    --color-red-hover: #C97A7A;
-    --color-red-rgb: 183, 92, 92;
-    --color-red-hover-rgb: 201, 122, 122;
-    --color-orange: #C48A6A;
-    --color-orange-hover: #D39D80;
-    --color-orange-rgb: 196, 138, 106;
-    --color-orange-hover-rgb: 211, 157, 128;
-    --color-yellow: #D1B97F;
-    --color-yellow-hover: #DDCCA0;
-    --color-yellow-rgb: 209, 185, 127;
-    --color-yellow-hover-rgb: 221, 204, 160;
-    --color-green: #5c8a7a;
-    --color-green-hover: #74A194;
-    --color-green-rgb: 92, 138, 122;
-    --color-green-hover-rgb: 116, 161, 148;
-    --color-cyan: #5C9E9E;
-    --color-cyan-hover: #73B3B3;
-    --color-cyan-rgb: 92, 158, 158;
-    --color-cyan-hover-rgb: 115, 179, 179;
-    --color-blue: #5A78A0;
-    --color-blue-hover: #7590B5;
-    --color-blue-rgb: 90, 120, 160;
-    --color-blue-hover-rgb: 117, 144, 181;
-    --color-purple: #7D6C9C;
-    --color-purple-hover: #9585B2;
-    --color-purple-rgb: 125, 108, 156;
-    --color-purple-hover-rgb: 149, 133, 178;
-    --color-pink: #A37D9C;
-    --color-pink-hover: #B892AE;
-    --color-pink-rgb: 163, 125, 156;
-    --color-pink-hover-rgb: 184, 146, 174;
+    --color-red: #C06C6C;
+    --color-red-hover: #E08B8B;
+    --color-red-rgb: 192, 108, 108;
+    --color-red-hover-rgb: 224, 139, 139;
+
+    --color-orange: #CC946B;
+    --color-orange-hover: #E9B286;
+    --color-orange-rgb: 204, 148, 107;
+    --color-orange-hover-rgb: 233, 178, 134;
+
+    --color-yellow: #D8C080;
+    --color-yellow-hover: #EFDC9E;
+    --color-yellow-rgb: 216, 192, 128;
+    --color-yellow-hover-rgb: 239, 220, 158;
+
+    --color-green: #5E9A84;
+    --color-green-hover: #8FC9B0;
+    --color-green-rgb: 94, 154, 132;
+    --color-green-hover-rgb: 143, 201, 176;
+
+    --color-cyan: #5EA8A8;
+    --color-cyan-hover: #87D0D0;
+    --color-cyan-rgb: 94, 168, 168;
+    --color-cyan-hover-rgb: 135, 208, 208;
+
+    --color-blue: #5E89B4;
+    --color-blue-hover: #89B3E0;
+    --color-blue-rgb: 94, 137, 180;
+    --color-blue-hover-rgb: 137, 179, 224;
+
+    --color-purple: #8970B0;
+    --color-purple-hover: #B094E3;
+    --color-purple-rgb: 137, 112, 176;
+    --color-purple-hover-rgb: 176, 148, 227;
+
+    --color-pink: #B17CA6;
+    --color-pink-hover: #D79DC9;
+    --color-pink-rgb: 177, 124, 166;
+    --color-pink-hover-rgb: 215, 157, 201;
 
     /**********/
     /* Titles */
@@ -260,18 +267,18 @@ settings:
     --color-yellow-rgb: 165, 140, 84;
     --color-yellow-hover-rgb: 192, 161, 111;
 
-    --color-green: #436257;           /* Vert profond */
-    --color-green-hover: #5A8070;     /* Hover plus clair */
+    --color-green: #436257;
+    --color-green-hover: #5A8070;
     --color-green-rgb: 67, 98, 87;
     --color-green-hover-rgb: 90, 128, 112;
 
-    --color-cyan: #4A8A8A;            /* Cyan plus bleu que le vert */
-    --color-cyan-hover: #66B0B0;      /* Hover plus lumineux */
+    --color-cyan: #4A8A8A;
+    --color-cyan-hover: #66B0B0;
     --color-cyan-rgb: 74, 138, 138;
     --color-cyan-hover-rgb: 102, 176, 176;
 
-    --color-blue: #3A4E8C;            /* Bleu saturé pour se distinguer du vert */
-    --color-blue-hover: #5C74B0;      /* Hover visible */
+    --color-blue: #3A4E8C;
+    --color-blue-hover: #5C74B0;
     --color-blue-rgb: 58, 78, 140;
     --color-blue-hover-rgb: 92, 116, 176;
 
@@ -301,7 +308,6 @@ settings:
 }
 
 .workspace {
-
     > .mod-left-split {
         min-width: 375px;
         max-width: 375px;
