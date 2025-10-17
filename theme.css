@@ -202,12 +202,12 @@ settings:
     /**********/
     /* Titles */
     /**********/
-    --h1-color: #A3B6B4;
-    --h2-color: #5E8290;
-    --h3-color: #8DA89C;
-    --h4-color: #5F8F78;
-    --h5-color: #798782;
-    --h6-color: #4B6C5C;
+    --h1-color: #D3E8E7;  /* Ciel pâle givré */
+    --h2-color: #A1C6CF;  /* Brume bleutée douce */
+    --h3-color: #8ABCAF;  /* Vert d’eau pastel, transition fluide */
+    --h4-color: #6AA891;  /* Vert mousse éclairci, plus tendre */
+    --h5-color: #7E988A;  /* Pierre humide adoucie, ton feutré */
+    --h6-color: #5C7D6F;  /* Terre forestière légèrement voilée */
 }
 
 .theme-light {
